@@ -1,119 +1,32 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>IPSEP | Sitio en construcción</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IPSEP – Instituto de Protecciones de Sistemas Eléctricos de Potencia</title>
 
-  <style>
-    :root {
-      --bg: #0b1c2d;
-      --primary: #1e90ff;
-      --text: #eaeaea;
-      --muted: #a0b3c6;
-    }
-
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, sans-serif;
-    }
-
-    body {
-      background: linear-gradient(135deg, #081421, #0b1c2d);
-      color: var(--text);
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .container {
-      max-width: 720px;
-      padding: 2.5rem;
-      text-align: center;
-      border-radius: 16px;
-      background: rgba(255, 255, 255, 0.03);
-      backdrop-filter: blur(6px);
-      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35);
-    }
-
-    h1 {
-      font-size: 2.2rem;
-      margin-bottom: 0.5rem;
-      letter-spacing: 1px;
-    }
-
-    h2 {
-      font-size: 1.1rem;
-      font-weight: 400;
-      color: var(--muted);
-      margin-bottom: 2rem;
-    }
-
-    p {
-      font-size: 1rem;
-      line-height: 1.6;
-      margin-bottom: 1.5rem;
-      color: #d7e3ee;
-    }
-
-    .badge {
-      display: inline-block;
-      padding: 0.4rem 0.9rem;
-      border-radius: 999px;
-      background-color: rgba(30, 144, 255, 0.15);
-      color: var(--primary);
-      font-size: 0.85rem;
-      margin-bottom: 1.2rem;
-    }
-
-    footer {
-      margin-top: 2rem;
-      font-size: 0.85rem;
-      color: var(--muted);
-    }
-
-    a {
-      color: var(--primary);
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-  </style>
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-  <main class="container">
-    <span class="badge">Sitio en construcción</span>
 
+  <header class="card" style="margin:1rem;">
+    <img src="assets/logo-ipsep.png" alt="IPSEP" style="max-height:70px">
     <h1>IPSEP</h1>
-    <h2>Instituto de Protecciones de Sistemas Eléctricos de Potencia</h2>
+    <p class="muted">Instituto de Protecciones de Sistemas Eléctricos de Potencia</p>
+  </header>
 
-    <p>
-      Este sitio web se encuentra actualmente en desarrollo.
-      Próximamente estará disponible información sobre nuestros proyectos,
-      actividades académicas, servicios de consultoría y desarrollos tecnológicos
-      en el área de protecciones de sistemas eléctricos de potencia.
-    </p>
-
-    <p>
-      Mientras tanto, podés visitar este repositorio para seguir el avance del proyecto
-      o contactarnos a través de los canales institucionales.
-    </p>
-
-    <footer>
-      © <span id="year"></span> IPSEP · UNRC  
-      <br />
-      Desarrollado por el equipo IPSEP
-    </footer>
+  <main style="margin:1rem;">
+    <section class="card" style="padding:1.2rem;">
+      <h2>Quiénes somos</h2>
+      <p>
+        El IPSEP desarrolla investigación, formación y transferencia
+        tecnológica en el área de protecciones de sistemas eléctricos de potencia.
+      </p>
+      <a href="#" class="btn">Ver proyectos</a>
+    </section>
   </main>
 
-  <script>
-    document.getElementById("year").textContent = new Date().getFullYear();
-  </script>
 </body>
 </html>
+
