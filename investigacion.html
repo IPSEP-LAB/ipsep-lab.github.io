@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Investigacion - IPSEP</title>
+  <meta name="description" content="Proyectos de investigacion, tesis doctorales y becarios del IPSEP - Instituto de Protecciones de Sistemas Electricos de Potencia">
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <div class="brand-text">
+          <span class="brand-name">IPSEP</span>
+          <span class="brand-sub">Protecciones de Sistemas Electricos de Potencia</span>
+        </div>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Institucional</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="nuestrahistoria.html">Nuestra Historia</a></li>
+              <li><a class="dropdown-item" href="integrantes.html">Integrantes</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="ensayos.html">Ensayos</a></li>
+          <li class="nav-item"><a class="nav-link" href="investigacion.html">Investigacion</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Formacion</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="cursos.html">Cursos</a></li>
+              <li><a class="dropdown-item" href="docencia.html">Docencia</a></li>
+              <li><a class="dropdown-item" href="becaspasantias.html">Becas y Pasantias</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+          <li class="nav-item"><a class="nav-link" href="enlaces.html">Enlaces</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <section class="page-header">
+    <div class="container">
+      <nav aria-label="breadcrumb" class="fade-up">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Investigacion</li>
+        </ol>
+      </nav>
+      <h1 class="fade-up">Investigacion</h1>
+      <p class="lead mt-3 fade-up" style="color: rgba(255,255,255,0.85); max-width: 750px;">Desde su creacion, el IPSEP ha llevado a cabo distintos trabajos de investigacion los cuales fueron apoyados economicamente mediante subsidios por organismos Internacionales, Nacionales, Provinciales y Locales.</p>
+    </div>
+  </section>
+
+  <!-- Tabs Section -->
+  <section class="section section-light">
+    <div class="container">
+
+      <!-- Nav Tabs -->
+      <ul class="nav nav-tabs nav-tabs-custom mb-4 flex-nowrap overflow-auto fade-up" id="investigacionTabs" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="organismos-tab" data-bs-toggle="tab" data-bs-target="#organismos" type="button" role="tab" aria-controls="organismos" aria-selected="true">
+            <i class="bi bi-bank me-2"></i>Organismos Financieros
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="proyectos-tab" data-bs-toggle="tab" data-bs-target="#proyectos" type="button" role="tab" aria-controls="proyectos" aria-selected="false">
+            <i class="bi bi-diagram-3 me-2"></i>Proyectos Actuales
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="tesis-tab" data-bs-toggle="tab" data-bs-target="#tesis" type="button" role="tab" aria-controls="tesis" aria-selected="false">
+            <i class="bi bi-mortarboard me-2"></i>Tesis
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="becarios-tab" data-bs-toggle="tab" data-bs-target="#becarios" type="button" role="tab" aria-controls="becarios" aria-selected="false">
+            <i class="bi bi-people me-2"></i>Becarios
+          </button>
+        </li>
+      </ul>
+
+      <!-- Tab Content -->
+      <div class="tab-content" id="investigacionTabContent">
+
+        <!-- Organismos Financieros -->
+        <div class="tab-pane fade show active" id="organismos" role="tabpanel" aria-labelledby="organismos-tab">
+          <div class="row g-4">
+            <div class="col-lg-4 col-md-6 fade-up delay-1">
+              <div class="card h-100">
+                <div class="card-body text-center">
+                  <div class="mb-3">
+                    <span class="badge-accent"><i class="bi bi-globe me-1"></i>Internacional</span>
+                  </div>
+                  <h5 class="card-title">BRITISH COUNCIL</h5>
+                  <p class="card-text">Reino Unido</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 fade-up delay-2">
+              <div class="card h-100">
+                <div class="card-body text-center">
+                  <div class="mb-3">
+                    <span class="badge-accent"><i class="bi bi-globe me-1"></i>Internacional / Nacional</span>
+                  </div>
+                  <h5 class="card-title">BID / CONICET</h5>
+                  <p class="card-text">Banco Interamericano de Desarrollo / Consejo Nacional de Investigaciones Cientificas y Tecnicas</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 fade-up delay-3">
+              <div class="card h-100">
+                <div class="card-body text-center">
+                  <div class="mb-3">
+                    <span class="badge-custom"><i class="bi bi-flag me-1"></i>Nacional</span>
+                  </div>
+                  <h5 class="card-title">SECYT</h5>
+                  <p class="card-text">Secretaria de Ciencia y Tecnologia</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 fade-up delay-1">
+              <div class="card h-100">
+                <div class="card-body text-center">
+                  <div class="mb-3">
+                    <span class="badge-custom"><i class="bi bi-geo-alt me-1"></i>Provincial</span>
+                  </div>
+                  <h5 class="card-title">AGENCIA CORDOBA CIENCIA</h5>
+                  <p class="card-text">Gobierno de la Provincia de Cordoba</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 fade-up delay-2">
+              <div class="card h-100">
+                <div class="card-body text-center">
+                  <div class="mb-3">
+                    <span class="badge-custom"><i class="bi bi-building me-1"></i>Universitario</span>
+                  </div>
+                  <h5 class="card-title">SECYT / UNRC</h5>
+                  <p class="card-text">Secretaria de Ciencia y Tecnologia - Universidad Nacional de Rio Cuarto</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 fade-up delay-3">
+              <div class="card h-100">
+                <div class="card-body text-center">
+                  <div class="mb-3">
+                    <span class="badge-custom"><i class="bi bi-pin-map me-1"></i>Local</span>
+                  </div>
+                  <h5 class="card-title">COMISION de DESARROLLO REGIONAL</h5>
+                  <p class="card-text">Rio Cuarto</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Proyectos Actuales -->
+        <div class="tab-pane fade" id="proyectos" role="tabpanel" aria-labelledby="proyectos-tab">
+          <div class="row g-4">
+            <div class="col-lg-12 fade-up delay-1">
+              <div class="card border-accent">
+                <div class="card-body">
+                  <div class="d-flex align-items-start gap-3">
+                    <div class="flex-shrink-0">
+                      <div style="width: 45px; height: 45px; border-radius: 50%; background: linear-gradient(135deg, var(--azul-cielo), var(--lila-suave)); display: flex; align-items: center; justify-content: center; color: white; font-weight: 700;">1</div>
+                    </div>
+                    <div>
+                      <h5 class="card-title mb-2">Sobretensiones en sistemas de baja tension trasferida por transformadores</h5>
+                      <p class="card-text mb-0">Estudio de los fenomenos de sobretension transferidos a traves de transformadores en redes de baja tension y su impacto en el equipamiento conectado.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-12 fade-up delay-2">
+              <div class="card border-accent">
+                <div class="card-body">
+                  <div class="d-flex align-items-start gap-3">
+                    <div class="flex-shrink-0">
+                      <div style="width: 45px; height: 45px; border-radius: 50%; background: linear-gradient(135deg, var(--azul-cielo), var(--lila-suave)); display: flex; align-items: center; justify-content: center; color: white; font-weight: 700;">2</div>
+                    </div>
+                    <div>
+                      <h5 class="card-title mb-2">Interaccion sistema - motor de induccion en presencia de huecos de tension y microcortes</h5>
+                      <p class="card-text mb-0">Analisis de la interaccion entre el sistema electrico y motores de induccion cuando se producen huecos de tension y microcortes en la red de alimentacion.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-12 fade-up delay-3">
+              <div class="card border-accent">
+                <div class="card-body">
+                  <div class="d-flex align-items-start gap-3">
+                    <div class="flex-shrink-0">
+                      <div style="width: 45px; height: 45px; border-radius: 50%; background: linear-gradient(135deg, var(--azul-cielo), var(--lila-suave)); display: flex; align-items: center; justify-content: center; color: white; font-weight: 700;">3</div>
+                    </div>
+                    <div>
+                      <h5 class="card-title mb-2">Estudio de los efectos de desequilibrios de tension en la alimentacion de motores trifasicos de induccion</h5>
+                      <p class="card-text mb-0">Investigacion sobre como los desequilibrios de tension en la red electrica afectan el rendimiento y la vida util de los motores trifasicos de induccion.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tesis -->
+        <div class="tab-pane fade" id="tesis" role="tabpanel" aria-labelledby="tesis-tab">
+          <div class="row g-4">
+            <div class="col-lg-6 fade-up delay-1">
+              <div class="card h-100">
+                <div class="card-body">
+                  <div class="d-flex justify-content-between align-items-start mb-2">
+                    <span class="badge-accent">Doctorado</span>
+                    <span class="badge-custom">1994</span>
+                  </div>
+                  <h5 class="card-title mt-2">Dr. Juan Carlos Gomez</h5>
+                  <p class="card-text fst-italic">"HBC Fuse Models based on fundamental arc mechanisms"</p>
+                  <p class="card-text"><small><i class="bi bi-building me-1"></i>Sheffield Hallam University</small></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 fade-up delay-2">
+              <div class="card h-100">
+                <div class="card-body">
+                  <div class="d-flex justify-content-between align-items-start mb-2">
+                    <span class="badge-accent">Doctorado</span>
+                    <span class="badge-custom">2000</span>
+                  </div>
+                  <h5 class="card-title mt-2">Ing. Claudio Reineri</h5>
+                  <p class="card-text fst-italic">"Faltas de alta impedancia"</p>
+                  <p class="card-text"><small><i class="bi bi-building me-1"></i>Universidad Politecnica de Valencia</small></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 fade-up delay-3">
+              <div class="card h-100">
+                <div class="card-body">
+                  <div class="d-flex justify-content-between align-items-start mb-2">
+                    <span class="badge-accent">Doctorado</span>
+                    <span class="badge-custom">2000</span>
+                  </div>
+                  <h5 class="card-title mt-2">Ing. Walter Gimenez</h5>
+                  <p class="card-text fst-italic">"Modelizacion de Interruptores Electricos de Potencia"</p>
+                  <p class="card-text"><small><i class="bi bi-building me-1"></i>Universidad Politecnica de Cataluna</small></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 fade-up delay-4">
+              <div class="card h-100">
+                <div class="card-body">
+                  <div class="d-flex justify-content-between align-items-start mb-2">
+                    <span class="badge-accent">Doctorado</span>
+                    <span class="badge-custom">En curso</span>
+                  </div>
+                  <h5 class="card-title mt-2">Ing. Daniel H. Tourn</h5>
+                  <p class="card-text fst-italic">"Interaccion fusible - motor de induccion"</p>
+                  <p class="card-text"><small><i class="bi bi-building me-1"></i>Universidad Nacional de Rio Cuarto (UNRC)</small></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 fade-up delay-1">
+              <div class="card h-100">
+                <div class="card-body">
+                  <div class="d-flex justify-content-between align-items-start mb-2">
+                    <span class="badge-accent">Doctorado</span>
+                    <span class="badge-custom">En curso</span>
+                  </div>
+                  <h5 class="card-title mt-2">Ing. Juan Carlos Amatti</h5>
+                  <p class="card-text fst-italic">"Estimacion de estado"</p>
+                  <p class="card-text"><small><i class="bi bi-building me-1"></i>Universidad Politecnica de Valencia</small></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 fade-up delay-2">
+              <div class="card h-100">
+                <div class="card-body">
+                  <div class="d-flex justify-content-between align-items-start mb-2">
+                    <span class="badge-accent">Doctorado</span>
+                    <span class="badge-custom">En curso</span>
+                  </div>
+                  <h5 class="card-title mt-2">Ing. Marcelo Basilico</h5>
+                  <p class="card-text fst-italic">"Proteccion adaptiva de redes de distribucion"</p>
+                  <p class="card-text"><small><i class="bi bi-building me-1"></i>Universidad Nacional de Rio Cuarto (UNRC)</small></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 fade-up delay-3">
+              <div class="card h-100">
+                <div class="card-body">
+                  <div class="d-flex justify-content-between align-items-start mb-2">
+                    <span class="badge-accent">Maestria</span>
+                    <span class="badge-custom">En curso</span>
+                  </div>
+                  <h5 class="card-title mt-2">Ing. Marcos E. Felici</h5>
+                  <p class="card-text fst-italic">"Calidad de la energia"</p>
+                  <p class="card-text"><small><i class="bi bi-building me-1"></i>Universidad Nacional de Rio Cuarto (UNRC)</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Becarios -->
+        <div class="tab-pane fade" id="becarios" role="tabpanel" aria-labelledby="becarios-tab">
+          <div class="row g-4">
+            <div class="col-lg-6 col-md-6 fade-up delay-1">
+              <div class="card h-100">
+                <div class="card-body d-flex align-items-center gap-3">
+                  <div class="flex-shrink-0">
+                    <div style="width: 45px; height: 45px; border-radius: 50%; background: linear-gradient(135deg, var(--azul-cielo), var(--lila-suave)); display: flex; align-items: center; justify-content: center; color: white; font-size: 1.1rem;">
+                      <i class="bi bi-person"></i>
+                    </div>
+                  </div>
+                  <div>
+                    <h6 class="card-title mb-0">Ing. Luis F. Luna</h6>
+                    <small class="text-muted"><i class="bi bi-calendar3 me-1"></i>1986 - 1990</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 fade-up delay-2">
+              <div class="card h-100">
+                <div class="card-body d-flex align-items-center gap-3">
+                  <div class="flex-shrink-0">
+                    <div style="width: 45px; height: 45px; border-radius: 50%; background: linear-gradient(135deg, var(--azul-cielo), var(--lila-suave)); display: flex; align-items: center; justify-content: center; color: white; font-size: 1.1rem;">
+                      <i class="bi bi-person"></i>
+                    </div>
+                  </div>
+                  <div>
+                    <h6 class="card-title mb-0">Ing. Daniel H. Tourn</h6>
+                    <small class="text-muted"><i class="bi bi-calendar3 me-1"></i>1986 - 1991</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 fade-up delay-3">
+              <div class="card h-100">
+                <div class="card-body d-flex align-items-center gap-3">
+                  <div class="flex-shrink-0">
+                    <div style="width: 45px; height: 45px; border-radius: 50%; background: linear-gradient(135deg, var(--azul-cielo), var(--lila-suave)); display: flex; align-items: center; justify-content: center; color: white; font-size: 1.1rem;">
+                      <i class="bi bi-person"></i>
+                    </div>
+                  </div>
+                  <div>
+                    <h6 class="card-title mb-0">Ing. Juan C. Amatti</h6>
+                    <small class="text-muted"><i class="bi bi-calendar3 me-1"></i>1992 - 1994</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 fade-up delay-4">
+              <div class="card h-100">
+                <div class="card-body d-flex align-items-center gap-3">
+                  <div class="flex-shrink-0">
+                    <div style="width: 45px; height: 45px; border-radius: 50%; background: linear-gradient(135deg, var(--azul-cielo), var(--lila-suave)); display: flex; align-items: center; justify-content: center; color: white; font-size: 1.1rem;">
+                      <i class="bi bi-person"></i>
+                    </div>
+                  </div>
+                  <div>
+                    <h6 class="card-title mb-0">Ing. Carlos G. Zorzan</h6>
+                    <small class="text-muted"><i class="bi bi-calendar3 me-1"></i>1996 - 1997</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 fade-up delay-1">
+              <div class="card h-100">
+                <div class="card-body d-flex align-items-center gap-3">
+                  <div class="flex-shrink-0">
+                    <div style="width: 45px; height: 45px; border-radius: 50%; background: linear-gradient(135deg, var(--azul-cielo), var(--lila-suave)); display: flex; align-items: center; justify-content: center; color: white; font-size: 1.1rem;">
+                      <i class="bi bi-person"></i>
+                    </div>
+                  </div>
+                  <div>
+                    <h6 class="card-title mb-0">Ing. Edgardo Ordoqui</h6>
+                    <small class="text-muted"><i class="bi bi-calendar3 me-1"></i>1996 - 1998</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 fade-up delay-2">
+              <div class="card h-100">
+                <div class="card-body d-flex align-items-center gap-3">
+                  <div class="flex-shrink-0">
+                    <div style="width: 45px; height: 45px; border-radius: 50%; background: linear-gradient(135deg, var(--azul-cielo), var(--lila-suave)); display: flex; align-items: center; justify-content: center; color: white; font-size: 1.1rem;">
+                      <i class="bi bi-person"></i>
+                    </div>
+                  </div>
+                  <div>
+                    <h6 class="card-title mb-0">Ing. Marcos Felici</h6>
+                    <small class="text-muted"><i class="bi bi-calendar3 me-1"></i>1997 - 2000</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 fade-up delay-3">
+              <div class="card h-100">
+                <div class="card-body d-flex align-items-center gap-3">
+                  <div class="flex-shrink-0">
+                    <div style="width: 45px; height: 45px; border-radius: 50%; background: linear-gradient(135deg, var(--azul-cielo), var(--lila-suave)); display: flex; align-items: center; justify-content: center; color: white; font-size: 1.1rem;">
+                      <i class="bi bi-person"></i>
+                    </div>
+                  </div>
+                  <div>
+                    <h6 class="card-title mb-0">Sr. Mauricio Aboud</h6>
+                    <small class="text-muted"><i class="bi bi-calendar3 me-1"></i>1996 - 1999</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 fade-up delay-4">
+              <div class="card h-100">
+                <div class="card-body d-flex align-items-center gap-3">
+                  <div class="flex-shrink-0">
+                    <div style="width: 45px; height: 45px; border-radius: 50%; background: linear-gradient(135deg, var(--azul-cielo), var(--lila-suave)); display: flex; align-items: center; justify-content: center; color: white; font-size: 1.1rem;">
+                      <i class="bi bi-person"></i>
+                    </div>
+                  </div>
+                  <div>
+                    <h6 class="card-title mb-0">Sr. Cristian Perez</h6>
+                    <small class="text-muted"><i class="bi bi-calendar3 me-1"></i>1996 - 2000</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6">
+          <h5>IPSEP</h5>
+          <p class="mb-3">Instituto de Protecciones de Sistemas Electricos de Potencia</p>
+          <p class="mb-1"><small>Facultad de Ingenieria</small></p>
+          <p><small>Universidad Nacional de Rio Cuarto</small></p>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <h5>Secciones</h5>
+          <ul><li><a href="index.html">Inicio</a></li><li><a href="nuestrahistoria.html">Historia</a></li><li><a href="ensayos.html">Ensayos</a></li><li><a href="investigacion.html">Investigacion</a></li></ul>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <h5>Formacion</h5>
+          <ul><li><a href="cursos.html">Cursos</a></li><li><a href="docencia.html">Docencia</a></li><li><a href="becaspasantias.html">Becas</a></li><li><a href="integrantes.html">Equipo</a></li></ul>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <h5>Contacto</h5>
+          <ul><li><i class="bi bi-geo-alt me-2"></i>Ruta Nacional 36, km 601</li><li>Rio Cuarto (X5804BYA), Cordoba</li><li><i class="bi bi-telephone me-2"></i>+54-358-4676251</li><li><a href="contacto.html">Mas informacion</a></li></ul>
+        </div>
+      </div>
+      <div class="footer-bottom text-center"><p class="mb-0">&copy; 2025 IPSEP - Facultad de Ingenieria - UNRC. Todos los derechos reservados.</p></div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" aria-label="Volver arriba">
+    <i class="bi bi-chevron-up"></i>
+  </button>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="js/main.js"></script>
+</body>
+</html>

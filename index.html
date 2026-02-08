@@ -3,30 +3,313 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>IPSEP – Instituto de Protecciones de Sistemas Eléctricos de Potencia</title>
-
-  <!-- CSS -->
-  <link rel="stylesheet" href="css/style.css">
+  <title>IPSEP - Instituto de Protecciones de Sistemas Electricos de Potencia</title>
+  <meta name="description" content="Instituto de Protecciones de Sistemas Electricos de Potencia - Facultad de Ingenieria - Universidad Nacional de Rio Cuarto">
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
-  <header class="card" style="margin:1rem;">
-    <img src="assets/logo-ipsep.png" alt="IPSEP" style="max-height:70px">
-    <h1>IPSEP</h1>
-    <p class="muted">Instituto de Protecciones de Sistemas Eléctricos de Potencia</p>
-  </header>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <div class="brand-text">
+          <span class="brand-name">IPSEP</span>
+          <span class="brand-sub">Protecciones de Sistemas Electricos de Potencia</span>
+        </div>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Institucional</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="nuestrahistoria.html">Nuestra Historia</a></li>
+              <li><a class="dropdown-item" href="integrantes.html">Integrantes</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="ensayos.html">Ensayos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="investigacion.html">Investigacion</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Formacion</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="cursos.html">Cursos</a></li>
+              <li><a class="dropdown-item" href="docencia.html">Docencia</a></li>
+              <li><a class="dropdown-item" href="becaspasantias.html">Becas y Pasantias</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacto.html">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="enlaces.html">Enlaces</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-  <main style="margin:1rem;">
-    <section class="card" style="padding:1.2rem;">
-      <h2>Quiénes somos</h2>
-      <p>
-        El IPSEP desarrolla investigación, formación y transferencia
-        tecnológica en el área de protecciones de sistemas eléctricos de potencia.
-      </p>
-      <a href="#" class="btn">Ver proyectos</a>
-    </section>
-  </main>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="circuit-pattern"></div>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-7 hero-content">
+          <span class="badge-year">Desde 1980</span>
+          <h1>Instituto de Protecciones de Sistemas Electricos de Potencia</h1>
+          <p class="lead">Investigacion, ensayos y formacion en protecciones electricas. Mas de 40 anos al servicio de la ingenieria electrica en Argentina.</p>
+          <div class="d-flex gap-3 mt-4 flex-wrap">
+            <a href="investigacion.html" class="btn-primary-custom">
+              <i class="bi bi-journal-text"></i> Investigacion
+            </a>
+            <a href="contacto.html" class="btn-outline-custom">
+              <i class="bi bi-envelope"></i> Contactanos
+            </a>
+          </div>
+          <div class="hero-stats">
+            <div class="hero-stat">
+              <span class="number counter" data-target="40" data-suffix="+">0</span>
+              <span class="label">Anos de experiencia</span>
+            </div>
+            <div class="hero-stat">
+              <span class="number counter" data-target="21" data-suffix="">0</span>
+              <span class="label">Productos ensayados</span>
+            </div>
+            <div class="hero-stat">
+              <span class="number counter" data-target="50" data-suffix="+">0</span>
+              <span class="label">Publicaciones</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 d-none d-lg-block">
+          <!-- Decorative element -->
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <!-- Quick Overview Section -->
+  <section class="section section-light">
+    <div class="container">
+      <div class="section-header fade-up">
+        <h2>Que hacemos</h2>
+        <p>El IPSEP es un instituto de la Facultad de Ingenieria de la Universidad Nacional de Rio Cuarto dedicado a la investigacion, ensayos y formacion en el area de protecciones de sistemas electricos de potencia.</p>
+      </div>
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6 fade-up delay-1">
+          <a href="ensayos.html" class="text-decoration-none">
+            <div class="feature-card">
+              <div class="icon">
+                <i class="bi bi-lightning-charge"></i>
+              </div>
+              <h4>Laboratorio de Ensayos</h4>
+              <p>Laboratorio acreditado por OAA (N. LE 041) para ensayos de equipamiento electrico segun normas IEC e IRAM.</p>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-md-6 fade-up delay-2">
+          <a href="investigacion.html" class="text-decoration-none">
+            <div class="feature-card">
+              <div class="icon">
+                <i class="bi bi-search"></i>
+              </div>
+              <h4>Investigacion</h4>
+              <p>Proyectos de investigacion financiados por organismos internacionales, nacionales y provinciales desde 1980.</p>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-md-6 fade-up delay-3">
+          <a href="cursos.html" class="text-decoration-none">
+            <div class="feature-card">
+              <div class="icon">
+                <i class="bi bi-mortarboard"></i>
+              </div>
+              <h4>Cursos y Capacitacion</h4>
+              <p>Cursos de posgrado para profesionales y capacitacion para personal tecnico de empresas de distribucion electrica.</p>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-md-6 fade-up delay-1">
+          <a href="docencia.html" class="text-decoration-none">
+            <div class="feature-card">
+              <div class="icon">
+                <i class="bi bi-book"></i>
+              </div>
+              <h4>Docencia</h4>
+              <p>Actividades de grado y posgrado en las carreras de la Facultad de Ingenieria, principalmente Ingenieria Electricista.</p>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-md-6 fade-up delay-2">
+          <a href="integrantes.html" class="text-decoration-none">
+            <div class="feature-card">
+              <div class="icon">
+                <i class="bi bi-people"></i>
+              </div>
+              <h4>Equipo</h4>
+              <p>Ingenieros, investigadores, docentes y estudiantes comprometidos con la excelencia en ingenieria electrica.</p>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-md-6 fade-up delay-3">
+          <a href="becaspasantias.html" class="text-decoration-none">
+            <div class="feature-card">
+              <div class="icon">
+                <i class="bi bi-award"></i>
+              </div>
+              <h4>Becas y Pasantias</h4>
+              <p>Oportunidades de formacion complementaria para alumnos de grado y posgrado de ingenieria.</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Quick Section -->
+  <section class="section section-cream" id="about">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6 fade-left">
+          <h2>Mas de 40 anos de trayectoria</h2>
+          <p>Fundado el 22 de Septiembre de 1980, el IPSEP cuenta con mas de cuatro decadas de trabajo y experiencia en el area de protecciones de sistemas electricos de potencia.</p>
+          <p>El Instituto ha realizado en forma permanente cursos de posgrado para profesionales, trabajos de investigacion apoyados por organismos internacionales, nacionales y provinciales, y ensayos de laboratorio acreditados bajo las mas exigentes normas.</p>
+          <a href="nuestrahistoria.html" class="btn-primary-custom mt-3">
+            <i class="bi bi-clock-history"></i> Conoce nuestra historia
+          </a>
+        </div>
+        <div class="col-lg-6 fade-right">
+          <div class="highlight-box">
+            <h5 class="text-azul mb-3"><i class="bi bi-patch-check me-2"></i>Acreditaciones</h5>
+            <ul class="list-unstyled mb-0">
+              <li class="mb-2"><i class="bi bi-check-circle text-accent me-2"></i>Laboratorio reconocido - Disp. N. 1007/99 (DNCI)</li>
+              <li class="mb-2"><i class="bi bi-check-circle text-accent me-2"></i>Acreditacion OAA N. LE 041</li>
+              <li><i class="bi bi-check-circle text-accent me-2"></i>Norma IRAM 301:2005 (ISO/IEC 17025)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Empresas / References -->
+  <section class="section section-light">
+    <div class="container">
+      <div class="section-header fade-up">
+        <h2>Confian en nosotros</h2>
+        <p>Empresas e instituciones que han utilizado nuestros servicios de ensayo a lo largo de los anos.</p>
+      </div>
+      <div class="row justify-content-center fade-up">
+        <div class="col-lg-10">
+          <div class="text-center">
+            <span class="badge-custom m-1">EDENOR</span>
+            <span class="badge-custom m-1">EDESUR</span>
+            <span class="badge-custom m-1">EPEC</span>
+            <span class="badge-custom m-1">ESEBA</span>
+            <span class="badge-custom m-1">EDELAP</span>
+            <span class="badge-custom m-1">EPE Sta. Fe</span>
+            <span class="badge-custom m-1">EDESAL</span>
+            <span class="badge-custom m-1">ARCOR</span>
+            <span class="badge-custom m-1">SIEMENS</span>
+            <span class="badge-custom m-1">SCHNEIDER ELECTRIC</span>
+            <span class="badge-custom m-1">ABB</span>
+            <span class="badge-custom m-1">AEG</span>
+            <span class="badge-custom m-1">SEMIKRON</span>
+            <span class="badge-custom m-1">SICA</span>
+            <span class="badge-custom m-1">TRAFO</span>
+            <span class="badge-custom m-1">FARADAY</span>
+            <span class="badge-custom m-1">ZOLODA</span>
+            <span class="badge-custom m-1">MOELLER</span>
+            <span class="badge-custom m-1">ELECTROMEC (Brasil)</span>
+            <span class="badge-custom m-1">FUSIVENCA (Venezuela)</span>
+            <span class="badge-custom m-1">TEE (Brasil)</span>
+            <span class="badge-custom m-1">UTE (Uruguay)</span>
+            <span class="badge-custom m-1">TRAFOPAR (Paraguay)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="section section-dark">
+    <div class="container text-center fade-up">
+      <h2 class="mb-3">Necesitas ensayar un producto o capacitar a tu equipo?</h2>
+      <p class="mb-4" style="max-width: 600px; margin: 0 auto;">Contactanos para conocer nuestros servicios de ensayo, investigacion y capacitacion.</p>
+      <a href="contacto.html" class="btn-accent">
+        <i class="bi bi-send me-2"></i>Contactanos
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6">
+          <h5>IPSEP</h5>
+          <p class="mb-3">Instituto de Protecciones de Sistemas Electricos de Potencia</p>
+          <p class="mb-1"><small>Facultad de Ingenieria</small></p>
+          <p><small>Universidad Nacional de Rio Cuarto</small></p>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <h5>Secciones</h5>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="nuestrahistoria.html">Historia</a></li>
+            <li><a href="ensayos.html">Ensayos</a></li>
+            <li><a href="investigacion.html">Investigacion</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <h5>Formacion</h5>
+          <ul>
+            <li><a href="cursos.html">Cursos</a></li>
+            <li><a href="docencia.html">Docencia</a></li>
+            <li><a href="becaspasantias.html">Becas</a></li>
+            <li><a href="integrantes.html">Equipo</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <h5>Contacto</h5>
+          <ul>
+            <li><i class="bi bi-geo-alt me-2"></i>Ruta Nacional 36, km 601</li>
+            <li>Rio Cuarto (X5804BYA), Cordoba</li>
+            <li><i class="bi bi-telephone me-2"></i>+54-358-4676251</li>
+            <li><a href="contacto.html">Mas informacion</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom text-center">
+        <p class="mb-0">&copy; 2025 IPSEP - Facultad de Ingenieria - UNRC. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" aria-label="Volver arriba">
+    <i class="bi bi-chevron-up"></i>
+  </button>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="js/main.js"></script>
 </body>
 </html>
-
